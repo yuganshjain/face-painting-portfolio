@@ -369,22 +369,14 @@ em { font-style: italic; background: var(--gradient-accent);
 .about__image-wrap {
   position: relative;
 }
-.about__image-placeholder {
+.about__photo {
   width: 100%;
   aspect-ratio: 4/5;
+  object-fit: cover;
+  object-position: center top;
   border-radius: var(--radius-lg);
-  background: var(--c-surface2);
-  border: 2px dashed rgba(199,125,255,0.3);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  box-shadow: 0 24px 60px rgba(0,0,0,0.5), 0 0 0 1px var(--c-border);
 }
-.placeholder-text {
-  text-align: center;
-  color: var(--c-text-muted);
-}
-.placeholder-text span { font-size: 3rem; display: block; margin-bottom: 0.5rem; }
-.placeholder-text p { font-size: 0.85rem; }
 .about__badge {
   position: absolute;
   bottom: -1.5rem;
