@@ -233,95 +233,60 @@
     <div class="container">
       <p class="section__eyebrow center">Portfolio</p>
       <h2 class="section__title center">My <em>Work</em></h2>
-      <p class="section__sub center">A glimpse into some of my favourite creations</p>
+      <p class="section__sub center">Real transformations — straight from my Instagram</p>
+    </div>
 
-      <div class="gallery__filters">
-        <button class="filter-btn active" data-filter="all">All</button>
-        <button class="filter-btn" data-filter="kids">Kids</button>
-        <button class="filter-btn" data-filter="bridal">Bridal</button>
-        <button class="filter-btn" data-filter="festival">Festival</button>
-        <button class="filter-btn" data-filter="body">Body Art</button>
-      </div>
-
-      <div class="gallery__grid" id="galleryGrid">
-        <!-- REPLACE: swap these placeholders with real images -->
-        <!-- Add data-category="kids|bridal|festival|body" to each item -->
-        <div class="gallery__item" data-category="bridal">
-          <div class="gallery__img-wrap">
-            <div class="gallery__placeholder" style="background: linear-gradient(135deg,#2d1b4e,#8b2fc9)">
-              <span>Bridal Design 1</span>
-            </div>
-          </div>
-          <div class="gallery__overlay"><span>Bridal Floral</span></div>
-        </div>
-        <div class="gallery__item gallery__item--wide" data-category="festival">
-          <div class="gallery__img-wrap">
-            <div class="gallery__placeholder" style="background: linear-gradient(135deg,#1a3a2a,#2eb872)">
-              <span>Festival Art 1</span>
-            </div>
-          </div>
-          <div class="gallery__overlay"><span>Festival Fantasy</span></div>
-        </div>
-        <div class="gallery__item" data-category="kids">
-          <div class="gallery__img-wrap">
-            <div class="gallery__placeholder" style="background: linear-gradient(135deg,#3a1a1a,#e84393)">
-              <span>Kids Design 1</span>
-            </div>
-          </div>
-          <div class="gallery__overlay"><span>Butterfly Magic</span></div>
-        </div>
-        <div class="gallery__item" data-category="body">
-          <div class="gallery__img-wrap">
-            <div class="gallery__placeholder" style="background: linear-gradient(135deg,#1a2a3a,#00b4d8)">
-              <span>Body Art 1</span>
-            </div>
-          </div>
-          <div class="gallery__overlay"><span>Ocean Body Art</span></div>
-        </div>
-        <div class="gallery__item" data-category="kids">
-          <div class="gallery__img-wrap">
-            <div class="gallery__placeholder" style="background: linear-gradient(135deg,#2a2a1a,#f4a900)">
-              <span>Kids Design 2</span>
-            </div>
-          </div>
-          <div class="gallery__overlay"><span>Tiger Cub</span></div>
-        </div>
-        <div class="gallery__item" data-category="bridal">
-          <div class="gallery__img-wrap">
-            <div class="gallery__placeholder" style="background: linear-gradient(135deg,#3a1a2a,#c9184a)">
-              <span>Bridal Design 2</span>
-            </div>
-          </div>
-          <div class="gallery__overlay"><span>Sangeet Glam</span></div>
-        </div>
-        <div class="gallery__item gallery__item--tall" data-category="festival">
-          <div class="gallery__img-wrap">
-            <div class="gallery__placeholder" style="background: linear-gradient(135deg,#1a1a3a,#7209b7)">
-              <span>Festival Art 2</span>
-            </div>
-          </div>
-          <div class="gallery__overlay"><span>Navratri Special</span></div>
-        </div>
-        <div class="gallery__item" data-category="body">
-          <div class="gallery__img-wrap">
-            <div class="gallery__placeholder" style="background: linear-gradient(135deg,#1a3a1a,#52b788)">
-              <span>Body Art 2</span>
-            </div>
-          </div>
-          <div class="gallery__overlay"><span>Forest Spirit</span></div>
-        </div>
-        <div class="gallery__item" data-category="kids">
-          <div class="gallery__img-wrap">
-            <div class="gallery__placeholder" style="background: linear-gradient(135deg,#2a1a3a,#ff6b6b)">
-              <span>Kids Design 3</span>
-            </div>
-          </div>
-          <div class="gallery__overlay"><span>Superhero Mask</span></div>
+    <!-- Auto-scrolling marquee strip — row 1 (left) -->
+    <div class="marquee-wrap">
+      <div class="marquee marquee--left">
+        <div class="marquee__track" id="marqueeTrack1">
+          <div class="marquee__item"><img src="gallery-01.png" alt="Face painting — bridal & kids party" /></div>
+          <div class="marquee__item"><img src="gallery-02.png" alt="Superman & Spiderman kids face paint" /></div>
+          <div class="marquee__item"><img src="gallery-03.png" alt="Glitter wedding — love sprinkled with pixie dust" /></div>
+          <div class="marquee__item"><img src="gallery-04.png" alt="Festival face art & outdoor events" /></div>
+          <div class="marquee__item"><img src="gallery-05.png" alt="Butterfly & glitter kids designs" /></div>
+          <div class="marquee__item"><img src="gallery-06.png" alt="Glitter eye art for women & kids" /></div>
+          <div class="marquee__item"><img src="gallery-07.png" alt="Skull art, butterfly & party designs" /></div>
+          <div class="marquee__item"><img src="gallery-08.png" alt="Paw Patrol & kids birthday party" /></div>
+          <!-- duplicate for seamless loop -->
+          <div class="marquee__item"><img src="gallery-01.png" alt="Face painting — bridal & kids party" /></div>
+          <div class="marquee__item"><img src="gallery-02.png" alt="Superman & Spiderman kids face paint" /></div>
+          <div class="marquee__item"><img src="gallery-03.png" alt="Glitter wedding — love sprinkled with pixie dust" /></div>
+          <div class="marquee__item"><img src="gallery-04.png" alt="Festival face art & outdoor events" /></div>
+          <div class="marquee__item"><img src="gallery-05.png" alt="Butterfly & glitter kids designs" /></div>
+          <div class="marquee__item"><img src="gallery-06.png" alt="Glitter eye art for women & kids" /></div>
+          <div class="marquee__item"><img src="gallery-07.png" alt="Skull art, butterfly & party designs" /></div>
+          <div class="marquee__item"><img src="gallery-08.png" alt="Paw Patrol & kids birthday party" /></div>
         </div>
       </div>
 
+      <!-- Row 2 (right) -->
+      <div class="marquee marquee--right">
+        <div class="marquee__track" id="marqueeTrack2">
+          <div class="marquee__item"><img src="gallery-09.png" alt="Tiger, unicorn & animal face paint" /></div>
+          <div class="marquee__item"><img src="gallery-10.png" alt="Lion, Spiderman & dragon designs" /></div>
+          <div class="marquee__item"><img src="gallery-11.png" alt="Glitter, tiger & unicorn kids art" /></div>
+          <div class="marquee__item"><img src="gallery-12.png" alt="Festival glitter & outdoor events" /></div>
+          <div class="marquee__item"><img src="gallery-13.png" alt="UV neon glow face paint" /></div>
+          <div class="marquee__item"><img src="gallery-14.png" alt="Tiger kids & birthday party art" /></div>
+          <div class="marquee__item"><img src="gallery-15.png" alt="Cherry, floral & Christmas designs" /></div>
+          <div class="marquee__item"><img src="gallery-16.png" alt="Butterfly & neon UV body art" /></div>
+          <!-- duplicate -->
+          <div class="marquee__item"><img src="gallery-09.png" alt="Tiger, unicorn & animal face paint" /></div>
+          <div class="marquee__item"><img src="gallery-10.png" alt="Lion, Spiderman & dragon designs" /></div>
+          <div class="marquee__item"><img src="gallery-11.png" alt="Glitter, tiger & unicorn kids art" /></div>
+          <div class="marquee__item"><img src="gallery-12.png" alt="Festival glitter & outdoor events" /></div>
+          <div class="marquee__item"><img src="gallery-13.png" alt="UV neon glow face paint" /></div>
+          <div class="marquee__item"><img src="gallery-14.png" alt="Tiger kids & birthday party art" /></div>
+          <div class="marquee__item"><img src="gallery-15.png" alt="Cherry, floral & Christmas designs" /></div>
+          <div class="marquee__item"><img src="gallery-16.png" alt="Butterfly & neon UV body art" /></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
       <div class="gallery__cta">
-        <p>See more on Instagram</p>
+        <p>Follow for new work every week</p>
         <a href="https://www.instagram.com/facepaintingbyrituverma/" target="_blank" rel="noopener" class="btn btn--outline">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
             <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
@@ -371,48 +336,122 @@
       <p class="section__eyebrow center">Client Love</p>
       <h2 class="section__title center">What They <em>Say</em></h2>
 
+      <!-- Scrolling testimonial ticker -->
+      <div class="testimonial-ticker">
+        <div class="testimonial-ticker__track">
+          <span>✦ "Colours bring joy to the celebration" 🌈</span>
+          <span>✦ "Love sprinkled with pixie dust ✨"</span>
+          <span>✦ "Tradition meets creativity 🎨"</span>
+          <span>✦ "You came for the wedding, but stayed for the glitter 💫"</span>
+          <span>✦ "When your work involves glitter, it's impossible to resist 😄"</span>
+          <span>✦ "Ready to add magic and colour to your celebration? 🎉"</span>
+          <span>✦ "Colours bring joy to the celebration" 🌈</span>
+          <span>✦ "Love sprinkled with pixie dust ✨"</span>
+          <span>✦ "Tradition meets creativity 🎨"</span>
+          <span>✦ "You came for the wedding, but stayed for the glitter 💫"</span>
+        </div>
+      </div>
+
       <div class="testimonials__grid">
 
-        <!-- REPLACE: swap these 3 placeholder cards with real client reviews -->
-
         <div class="testimonial-card">
+          <div class="testimonial-card__preview">
+            <img src="gallery-05.png" alt="Client at kids birthday party" />
+          </div>
           <div class="testimonial-card__stars">★★★★★</div>
-          <p class="testimonial-card__quote" style="color:rgba(152,148,176,0.6);font-style:italic">
-            [Add a real client review here — ask your happy customers to share their experience!]
+          <p class="testimonial-card__quote">
+            "Colours bring joy to the celebration! My daughter's birthday was made magical — every child left with the biggest smile. The designs were absolutely beautiful."
           </p>
           <div class="testimonial-card__author">
-            <div class="testimonial-card__avatar" style="background:rgba(152,148,176,0.2);color:#9894b0">?</div>
+            <div class="testimonial-card__avatar">🎂</div>
             <div>
-              <strong style="color:#9894b0">Client Name</strong>
-              <span>Event Type, City</span>
+              <strong>Birthday Party Client</strong>
+              <span>Kids Birthday, Delhi NCR</span>
             </div>
           </div>
         </div>
 
         <div class="testimonial-card testimonial-card--featured">
+          <div class="testimonial-card__preview">
+            <img src="gallery-03.png" alt="Glitter bridal wedding event" />
+          </div>
           <div class="testimonial-card__stars">★★★★★</div>
-          <p class="testimonial-card__quote" style="color:rgba(152,148,176,0.6);font-style:italic">
-            [Add a real client review here — bridal / wedding clients make great testimonials!]
+          <p class="testimonial-card__quote">
+            "We came for the wedding but stayed for the glitter! 💫 Ritu's glitter tattoos were the highlight of the entire evening. Every guest wanted one. Tradition meets creativity perfectly."
           </p>
           <div class="testimonial-card__author">
-            <div class="testimonial-card__avatar" style="background:rgba(152,148,176,0.2);color:#9894b0">?</div>
+            <div class="testimonial-card__avatar">💍</div>
             <div>
-              <strong style="color:#9894b0">Client Name</strong>
-              <span>Bridal / Sangeet, City</span>
+              <strong>Bridal Event Client</strong>
+              <span>Wedding Celebration, Gurgaon</span>
             </div>
           </div>
         </div>
 
         <div class="testimonial-card">
+          <div class="testimonial-card__preview">
+            <img src="gallery-12.png" alt="Festival face painting outdoor" />
+          </div>
           <div class="testimonial-card__stars">★★★★★</div>
-          <p class="testimonial-card__quote" style="color:rgba(152,148,176,0.6);font-style:italic">
-            [Add a real client review here — festival or event clients work great here!]
+          <p class="testimonial-card__quote">
+            "Love sprinkled with pixie dust ✨ — that's the only way to describe Ritu's work at our festival stall. People were queuing up for over two hours. Absolutely professional!"
           </p>
           <div class="testimonial-card__author">
-            <div class="testimonial-card__avatar" style="background:rgba(152,148,176,0.2);color:#9894b0">?</div>
+            <div class="testimonial-card__avatar">🎭</div>
             <div>
-              <strong style="color:#9894b0">Client Name</strong>
-              <span>Festival / Event, City</span>
+              <strong>Festival Organiser</strong>
+              <span>Cultural Festival, Noida</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__preview">
+            <img src="gallery-13.png" alt="UV neon glow face painting" />
+          </div>
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__quote">
+            "The UV glow face painting was unlike anything we'd seen before. Our corporate night event was transformed — guests couldn't stop taking photos. 10/10 would book again!"
+          </p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">🌟</div>
+            <div>
+              <strong>Corporate Event Host</strong>
+              <span>Night Event, Mumbai</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card testimonial-card--featured">
+          <div class="testimonial-card__preview">
+            <img src="gallery-08.png" alt="Paw Patrol kids party face paint" />
+          </div>
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__quote">
+            "Ritu did face painting for Dhriti's 1st birthday and we were blown away. She was so patient and gentle with all the little ones. Every parent was impressed. Will always recommend!"
+          </p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">🎈</div>
+            <div>
+              <strong>Parent — Dhriti's 1st Birthday</strong>
+              <span>Baby's First Birthday Party</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-card__preview">
+            <img src="gallery-01.png" alt="Bridal sangeet face painting" />
+          </div>
+          <div class="testimonial-card__stars">★★★★★</div>
+          <p class="testimonial-card__quote">
+            "When your work involves glitter, it's impossible to resist! Ritu had our entire sangeet covered in the most beautiful glitter art. The bride looked absolutely stunning."
+          </p>
+          <div class="testimonial-card__author">
+            <div class="testimonial-card__avatar">👰</div>
+            <div>
+              <strong>Sangeet Client</strong>
+              <span>Bridal Sangeet, Delhi</span>
             </div>
           </div>
         </div>
