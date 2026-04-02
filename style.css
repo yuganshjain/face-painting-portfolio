@@ -996,7 +996,75 @@ em { font-style: italic; background: var(--gradient-accent);
 .send-modal__note {
   font-size: 0.75rem;
   color: var(--c-text-muted);
-  margin-top: 0.5rem;
+  margin-top: 0.75rem;
+  line-height: 1.5;
+}
+
+/* Instagram 2-step flow */
+.ig-step .send-modal__box { max-width: 460px; text-align: left; }
+.ig-step__header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+}
+.ig-step__num {
+  width: 24px; height: 24px;
+  border-radius: 50%;
+  background: var(--gradient-accent);
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+}
+.ig-step__text {
+  width: 100%;
+  background: var(--c-surface2);
+  border: 1px solid var(--c-border);
+  border-radius: var(--radius-sm);
+  color: var(--c-text);
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  line-height: 1.6;
+  padding: 0.75rem 1rem;
+  resize: none;
+  height: 130px;
+  margin-bottom: 0.75rem;
+  outline: none;
+}
+.ig-step__divider {
+  text-align: center;
+  color: var(--c-text-muted);
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 1.25rem 0;
+  position: relative;
+}
+.ig-step__divider::before,
+.ig-step__divider::after {
+  content: '';
+  position: absolute;
+  top: 50%; width: 42%;
+  height: 1px;
+  background: var(--c-border);
+}
+.ig-step__divider::before { left: 0; }
+.ig-step__divider::after  { right: 0; }
+.send-modal__btn--copy {
+  width: 100%;
+  background: var(--c-surface2);
+  color: var(--c-text);
+  border: 1.5px solid var(--c-accent);
+  font-size: 0.95rem;
+  transition: var(--transition);
+}
+.send-modal__btn--copy:hover {
+  background: var(--c-accent);
+  color: #fff;
 }
 
 /* ── LIGHTBOX ────────────────────────────────────────── */
